@@ -43,7 +43,7 @@ export const Test = ({
               Someone recently requested a password change for your Dropbox
               account. If this was you, you can set a new password here:
             </Text>
-            <Button style={button} className='bg-red-800'>
+            <Button style={button} className='bg-red-800' pX={14} pY={17}>
               Reset password
             </Button>
             <Text style={text}>
